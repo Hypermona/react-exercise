@@ -1,0 +1,17 @@
+.file {
+  list-style-type: none;
+  padding: 10px;
+  background-color: rgb(252, 239, 191);
+  margin: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 20vw;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}

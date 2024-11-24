@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+}
+:root{
+  --primary:blue;
+  --secondary:gray;
+  --bg-primary:rgb(7, 7, 159)
+  --bg-secondary:rgb(27, 27, 34)
+  --border-secondary:rgb(48, 48, 62)
+  --border-primary:rgb(1, 1, 110)
+}
+.dark{
+  --primary:blue;
+  --secondary:gray;
+  --bg-primary:white;
+  --bg-secondary:white;
+  --border-secondary:rgb(48, 48, 62)
+  --border-primary:rgb(1, 1, 110)
+}

@@ -1,0 +1,34 @@
+.box1 {
+  width: 400px;
+  height: 400px;
+  background: rgb(53, 53, 94);
+
+  .box2 {
+    width: 200px;
+    height: 200px;
+    background: rgb(159, 5, 215);
+    animation: myanim 2s linear infinite forwards;
+  }
+  &:hover .box2 {
+    transform: translateX(100%);
+    animation-play-state: paused;
+  }
+}
+
+@keyframes myanim {
+  0% {
+    transform: translateX(0%) translateY(0%) rotate(0deg);
+  }
+  25% {
+    transform: translateX(0%) translateY(100%) rotate(45deg);
+  }
+  50% {
+    transform: translateX(100%) translateY(100%) rotate(90deg);
+  }
+  75% {
+    transform: translateX(100%) translateY(0%) rotate(135deg);
+  }
+  100% {
+    transform: translateX(0%) translateY(0%) rotate(180deg);
+  }
+}

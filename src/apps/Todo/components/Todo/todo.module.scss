@@ -1,0 +1,50 @@
+.input {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid rgb(1, 1, 110);
+  background-color: rgb(0, 0, 48);
+  color: white;
+}
+.btn {
+  height: 40px;
+  min-width: 100px;
+  margin: auto 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(1, 1, 110);
+  cursor: pointer;
+  &.primary {
+    background-color: rgb(7, 7, 159);
+    color: white;
+  }
+}
+
+.card {
+  border-radius: 5px;
+  border: 1px solid rgb(48, 48, 62);
+  background-color: rgb(27, 27, 34);
+  padding: 0;
+}
+
+.item {
+  list-style-type: none;
+  position: relative;
+  padding: 10px;
+  color: white;
+  margin: 10px;
+  background-color: rgb(31, 31, 45);
+  border-radius: 5px;
+  border: 1px solid rgb(41, 41, 69);
+  &:hover {
+    &::after {
+      content: "delete";
+      background-color: red;
+      padding: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 5px;
+      border: 2px solid rgb(251, 159, 126);
+      width: 92%;
+    }
+  }
+}
